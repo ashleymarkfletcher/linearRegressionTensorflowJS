@@ -40,8 +40,8 @@ const predict = x => {
 
 function mousePressed() {
   // normalise the graph from pixels
-  let x = map(mouseX, 0, width, 0, 1)
-  let y = map(mouseY, 0, width, 1, 0)
+  const x = map(mouseX, 0, width, 0, 1)
+  const y = map(mouseY, 0, width, 1, 0)
 
   x_vals.push(x)
   y_vals.push(y)
